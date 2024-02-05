@@ -1,0 +1,115 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg);
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 230px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+    color: white;
+}
+
+.header {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3rem 0 1rem 0;
+    color: white;
+}
+
+.cell {
+    width: 6rem;
+    height: 6rem;
+    border: 6px solid white;
+    margin: -6px 0 0 -6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 6rem;
+    font-size: 6rem;
+    cursor: pointer;
+    
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.status {
+    color: white;
+    /* color: orangered; */
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.restart {
+    color: rgb(65, 65, 65);
+    background-color: rgb(231, 231, 231);
+    font-size: 1.2rem;
+    font-weight: 600;
+    order: 1;
+    margin: 2rem;
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 40px;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.restart:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(185, 185, 185);
+    box-shadow: 0 5px 15px rgba(167, 167, 167, 0.4);
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 800px;
+    margin-bottom: 20px;
+}
+  
+footer > p {
+    margin: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+  
+a,
+a:visited {
+    color: white;
+}
+  
+#heart {
+    font-size: 1.6rem;
+}
